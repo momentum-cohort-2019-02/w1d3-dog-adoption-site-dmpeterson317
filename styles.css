@@ -83,3 +83,54 @@ h2 {
     margin-bottom: 3px;
     display: inline-block;
 }
+
+.foot1 {
+    width:350px;
+    height:250px;
+    background: url("starter_files/images/donate.jpg");
+    background-size: cover;
+}
+
+.foot2 {
+    width:350px;
+    height:250px;
+    background: url("starter_files/images/volunteer.jpg");
+    background-size: cover;
+}
+
+.foot3 {
+    width:350px;
+    height:250px;
+    background: url("starter_files/images/location.png");
+    background-size: cover;
+}
+
+.foot-background {
+    background-color: rgb(125, 70, 156);
+    opacity:.6;
+    margin:0;
+    height:250px;
+}
+
+.foot-text {
+    position:relative;
+    top:-250px;
+    line-height:250px;
+    width:350px;
+    font-family: "Oswald";
+    color:#FFFFFF;
+    font-size:40px;
+    text-align: center;
+    vertical-align: middle;
+    margin:0;
+}
+
+footer {
+    width:1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-wrap:wrap;
+        /* border: 5px solid black; */
+
+}
