@@ -83,12 +83,15 @@ h2 {
     margin-bottom: 3px;
     display: inline-block;
 }
-
+/*  */
 .foot1 {
     width:350px;
     height:250px;
-    background: url("starter_files/images/donate.jpg");
-    background-size: cover;
+        border: 5px solid black;
+    /* background: url("starter_files/images/donate.jpg"); */
+    /* background-size: cover;
+    background-color: rgba(148, 81, 187, 0.6)
+    background-blend-mode: overlay; */
 }
 
 .foot2 {
@@ -104,13 +107,17 @@ h2 {
     background: url("starter_files/images/location.png");
     background-size: cover;
 }
-
-.foot-background {
-    background-color: rgb(125, 70, 156);
+.blend-it {
+    background-image: url('image.jpg');
+    background-color: red;
+    background-blend-mode: screen;
+  }
+/* .foot-background {
+    background-color: rgb(117, 46, 158);
     opacity:.6;
     margin:0;
     height:250px;
-}
+} */
 
 .foot-text {
     position:relative;
