@@ -29,20 +29,20 @@ h4, h2, h3, h1 {
 .parent-container {
     margin-top: 0px;
     background-color: white;
-    width: 1000px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
     /* border: 5px solid black; */
-    padding: 0px 40px 50px 40px;
+    padding: 0px 55px 45px 55px;
 }
 
 h1 {
-    width: 1000px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
     background-color: #173E73;
     color: white;
-    padding: 20px 40px;
+    padding: 20px 55px;
 }
 
 h2 {
@@ -61,11 +61,12 @@ h2 {
 
 .flex-item {
     flex-grow: 0;
-    width: 325px;
+    width: 350px;
     height: 315px;
     /* border: 5px solid black; */
     flex-basis: 0;
     margin-right: 8px;
+    margin-bottom: 25px;
 }
 
 .item-name {
@@ -83,11 +84,14 @@ h2 {
     margin-bottom: 3px;
     display: inline-block;
 }
-/*  */
+
 .foot1 {
-    width:350px;
-    height:250px;
-        border: 5px solid black;
+    width:33.33%;
+    height:280px;
+    background: linear-gradient(rgba(128, 130, 235, 0.45), 
+    rgba(128, 130, 235, 0.45)),
+    no-repeat center/cover url('starter_files/images/donate.jpg');
+    
     /* background: url("starter_files/images/donate.jpg"); */
     /* background-size: cover;
     background-color: rgba(148, 81, 187, 0.6)
@@ -95,49 +99,63 @@ h2 {
 }
 
 .foot2 {
-    width:350px;
-    height:250px;
-    background: url("starter_files/images/volunteer.jpg");
-    background-size: cover;
+    width:33.33%;
+    height:280px;
+    background: linear-gradient(rgba(128, 130, 235, 0.45), 
+    rgba(128, 130, 235, 0.45)),
+    no-repeat center/cover url('starter_files/images/volunteer.jpg');
+    /* background: url("starter_files/images/volunteer.jpg");
+    background-size: cover; */
 }
 
 .foot3 {
-    width:350px;
-    height:250px;
-    background: url("starter_files/images/location.png");
-    background-size: cover;
+    width:33.33%;
+    height:280px;
+    background: linear-gradient(rgba(128, 130, 235, 0.45), 
+    rgba(128, 130, 235, 0.45)),
+    no-repeat center/cover url("starter_files/images/location.png");
+    /* background: url("starter_files/images/location.png");
+    background-size: cover; */
 }
-.blend-it {
+/* .blend-it {
     background-image: url('image.jpg');
     background-color: red;
     background-blend-mode: screen;
-  }
+  } */
 /* .foot-background {
     background-color: rgb(117, 46, 158);
     opacity:.6;
     margin:0;
     height:250px;
 } */
+/* background: linear-gradiant(_) url */
 
 .foot-text {
-    position:relative;
-    top:-250px;
-    line-height:250px;
-    width:350px;
-    font-family: "Oswald";
-    color:#FFFFFF;
-    font-size:40px;
-    text-align: center;
-    vertical-align: middle;
-    margin:0;
+    padding-left: 120px;
+    padding-top: 90px;
+    /* text-align: center; */
+    height: 20rem;
+    width: 15rem;
+    margin: 0;
+    /* background-size: contain; */
+    color: white;
+    /* text-align: center; */
+    /* line-height: 300px; */
+    font-family: Oswald;
+    font-weight: lighter;
+    font-size: 50px;
+    /* flex: 1 1 auto; */
 }
 
 footer {
-    width:1080px;
+    width:1212px;
     margin-left: auto;
     margin-right: auto;
     display:flex;
     flex-wrap:wrap;
+    /* margin-top: 25px; */
+    padding-left: 100px;
+    padding-right: 100px;
         /* border: 5px solid black; */
 
 }
